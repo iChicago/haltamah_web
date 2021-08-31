@@ -38,8 +38,8 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
-var listener = app.listen(8080, function() {
-  console.log("Listening on port " + listener.address().port);
-});
+// var listener = app.listen(8080, function() {
+//   console.log("Listening on port " + listener.address().port);
+// });
 
 module.exports = app;
